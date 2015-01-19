@@ -19,6 +19,6 @@ Find me on [Github][github] / [Twitter][Twitter] or get in touch with me at
 meaning of life or just say `Hello`.
 
 [molmicro]: http://onlinelibrary.wiley.com/doi/10.1111/mmi.12856/abstract
-[hs]: https://hackerschool.com
+[hs]: https://www.hackerschool.com
 [github]: https://github.com/keyanp
 [twitter]: https://twitter.com/keyan__p
