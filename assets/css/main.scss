@@ -89,7 +89,6 @@ h2 {
 
 h3 {
   @include font-size(15px);
-  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(30px);
   }
@@ -97,7 +96,6 @@ h3 {
 
 h4 {
   @include font-size(16px);
-  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(24px);
   }
@@ -119,6 +117,7 @@ h6 {
 
 p {
   line-height: 1.6;
+  font-family: 'Neuton', serif;
   @include font-size(14px);
   @include MQ(M) {
     @include font-size(18px);
