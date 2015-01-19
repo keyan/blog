@@ -421,10 +421,12 @@ div.page-content {
     padding-bottom: 1em;
     dt, dd {
       @include font-size(12px);  
+      font-family: 'Neuton', serif;
       line-height: 1.5;        
     }
     
     dt {
+      font-family: 'Neuton', serif;
       font-weight: bold;
       padding-bottom: 5px;
       padding-top: 20px;
@@ -462,6 +464,7 @@ div.page-content {
 .no-svg div.page-content ul li {
   background: url(./images/bullet.png);
   @include font-size(13px);
+  font-family: 'Neuton', serif;
   color: $color-2; 
   line-height: 1.6;
   background-repeat: no-repeat;
@@ -485,6 +488,7 @@ body.theme-base-01 {
   header.main-header {
     color: $base-01;
     ul li { 
+      font-family: 'Neuton', serif;
       color: $base-08;
     }
   }
