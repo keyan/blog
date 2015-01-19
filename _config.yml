@@ -24,7 +24,7 @@ harmony:
     dribble: 
     pinterest: 
   # Toggle disclaimer in footer
-  show_disclaimer: false
+  show_disclaimer: true
 
 # Conversion / Build settings 
 markdown:    kramdown
