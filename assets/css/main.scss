@@ -35,7 +35,8 @@ html * {
 body {
   font: {
     size: 100%;
-    family: $primary-font; // variables inside partials > _variables.scss
+    //family: $primary-font; // variables inside partials > _variables.scss
+    font-family: 'Neuton', serif;
   }
 }
 
