@@ -1,13 +1,13 @@
 # Harmony Jekyll theme general configurations 
 
 # Base URL
-baseurl: /
+baseurl: /blog
 
 # Site live URL
-# url: http://keyanp.github.io/
+url: http://keyanp.github.io/
 
 # Localhost 
-url: http://127.0.0.1:4000  
+# url: http://127.0.0.1:4000  
 
 harmony:
   name: Keyan
