@@ -35,8 +35,8 @@ html * {
 body {
   font: {
     size: 100%;
-    //family: $primary-font; // variables inside partials > _variables.scss
-    font-family: 'Neuton', serif;
+    family: $primary-font; // variables inside partials > _variables.scss
+    //font-family: 'Neuton', serif;
   }
 }
 
@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   // mobile first
   @include font-size(20px);
+  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(36px);
   }
@@ -82,6 +83,7 @@ h1 {
 h2 {
   // mobile first
   @include font-size(18px);
+  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(31px);
   }
@@ -89,6 +91,7 @@ h2 {
 
 h3 {
   @include font-size(15px);
+  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(30px);
   }
@@ -96,6 +99,7 @@ h3 {
 
 h4 {
   @include font-size(16px);
+  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(24px);
   }
@@ -103,6 +107,7 @@ h4 {
 
 h5 {
   @include font-size(14px);
+  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(22px);
   }
@@ -110,6 +115,7 @@ h5 {
 
 h6 {
   @include font-size(14px);
+  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(19px);
   }
@@ -118,6 +124,7 @@ h6 {
 p {
   line-height: 1.6;
   @include font-size(14px);
+  font-family: 'Neuton', serif;
   @include MQ(M) {
     @include font-size(18px);
   }

@@ -4,24 +4,21 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
+Hi, I am Keyan Pishdadian, a programmer currently living in Brooklyn NY where 
+I am working on fun open source projects at [Hacker School][hs]. Before I 
+started playing with computers I played with [bacteria][molmicro]. Thankfully 
+its much easier to tell computers what to do.
 
-I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
-Prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+Aside from programming I like rock climbing, watching movies, biking, and 
+thinking about warmer weather.
 
 ### Contact me
 
-Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
-[gayanvirajith@gmail.com](gayanvirajith@gmail.com).
+Find me on [Github][github] / [Twitter][Twitter] or get in touch with me at 
+[kpishdadian@gmail.com](kpishdadian@gmail.com) whether you want to discuss the 
+meaning of life or just say `Hello`.
 
-
-[tf]: http://template-factory.nl
-[m]: http://mearch.com
-[pw]: http://processwire.com
-[pwf]: http://processwire.com/talk
-[jekyll]: http://jekyllrb.com
-[github]: https://github.com/gayanvirajith
-[google]: https://plus.google.com/+GayanVirajith
-[twitter]: https://twitter.com/gayanvirajith
+[molmicro]: http://onlinelibrary.wiley.com/doi/10.1111/mmi.12856/abstract
+[hs]: https://hackerschool.com
+[github]: https://github.com/keyanp
+[twitter]: https://twitter.com/keyan__p
