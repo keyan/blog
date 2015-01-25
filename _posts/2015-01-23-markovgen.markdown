@@ -22,10 +22,16 @@ I did this by creating a dictionary which kept a count of the instances that cer
 
 {% highlight python %}
 if current_token in markov_dictionary:
-    self.update_dictionary(markov_dictionary, tokens_list, current_token, next_index)
+    self.update_dictionary(markov_dictionary,
+                           tokens_list,
+                           current_token,
+                           next_index)
 else:
     markov_dictionary[current_token] = defaultdict(int)
-    self.update_dictionary(markov_dictionary, tokens_list, current_token, next_index)
+    self.update_dictionary(markov_dictionary,
+                           tokens_list,
+                           current_token,
+                           next_index)
 {% endhighlight %}
 
 After this I just used the word counts to calculate a probability (0.0 - 1.0) that a word would follow the current state and used this to make a weighted randomized choice:
@@ -34,7 +40,10 @@ After this I just used the word counts to calculate a probability (0.0 - 1.0) th
 denominator = sum(value for key, value in current_word)
 weights = [float(value) / denominator for key, value in current_word]
 words = [key for key, value in current_word]
-word = list(numpy.random.choice(words, size=1, replace=False, p=weights))
+word = list(numpy.random.choice(words,
+                                size=1,
+                                replace=False,
+                                p=weights))
 {% endhighlight %}
 
 The result of all this is text that is oftentimes gibberish, but sometimes strangely poetic:

@@ -1,49 +1,24 @@
-harmony:
-  name: Keyan Pishdadian
-  # Little description about your site
-  description:
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and 
-  # in your feed.xml site description.
-  meta_description:
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Keyan Pishdadian
-    email: kpishdadian@gmail.com
-    url: http://keyanp.github.io
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: 
-
-  # Profile links, leave blank to ignore
-  social: 
-    github: keyanp
-    twitter: keyan__p
-    facebook: 
-    gplus:
-    dribble: 
-    pinterest: 
-  # Toggle disclaimer in footer
-  show_disclaimer: true
-
-# Conversion / Build settings 
-markdown:    kramdown
-# This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: pygments 
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
+relative_permalinks: true
 
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
+# Setup
+title:            Keyan P
+tagline:          
+description:      
+baseurl:          /
 
-# Sass conversion configs
-sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+author:
+  name:           'Keyan Pishdadian'
+  url:            https://www.keyanp.com
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:           https://www.github.com/
