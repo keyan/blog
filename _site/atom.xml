@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Keyan P</title>
+ <title>Keyan Pishdadian</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-01-25T17:21:32-05:00</updated>
+ <updated>2015-02-06T23:37:32-05:00</updated>
  <id></id>
  <author>
    <name>Keyan Pishdadian</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>A Reflection</title>
+   <link href="/hacker%20school/learning/2015/02/06/learningreflection/"/>
+   <updated>2015-02-06T12:43:19-05:00</updated>
+   <id>/hacker%20school/learning/2015/02/06/learningreflection</id>
+   <content type="html">&lt;p&gt;It&amp;#39;s crazy to think it has already been five weeks, but soon enough I will hit the half-way point of my official time at Hacker School. I say official  because, you know, never graduate. The last couple weeks were difficult for me but I&amp;#39;m glad I can say I&amp;#39;ve learned a lot, and not just about programming.&lt;/p&gt;
+
+&lt;p&gt;Most programmers face a point where they are unsure of what to do next. The seemingly limitless options of topics/frameworks/languages available can make anyone go mad trying to figure out what the &amp;quot;most important&amp;quot; thing to learn is, and I am no exception. &lt;/p&gt;
+
+&lt;p&gt;I came to Hacker School with a vague idea of things I wanted to learn about, but as I talked to more people I noticed this list of projects expanding to the point of being unmanageable. The environment is interesting in that one is free to spend time on whatever they wish which can be intoxicating, but coming from a restricted ladderlike educational structure the freedom is also unnerving. In an effort to optimize my learning (and future employment prospects) I found myself spending way too much chasing the dragon of the &amp;quot;perfect project&amp;quot;. In reality, the time spent worrying about what to do could have been better spent just doing whatever I felt like doing. Being able to stop obsessing over time optimization is really about accepting that:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You will never be able to learn everything you want to learn.&lt;/li&gt;
+&lt;li&gt;There will always be someone who is more experienced/smarter/faster/whatever than you.&lt;/li&gt;
+&lt;li&gt;If you aren&amp;#39;t interested in something, you will realize very quickly and very little time will be wasted.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Instead of trying to finding the ultimate project that would be technically challenging, impress potential employers, and woo fellow Hacker Schoolers at weekly presentations, I decided to just do whatever I felt like doing. If it wasn&amp;#39;t the right project or I wasn&amp;#39;t learning as much as I had planned I would just move to something else. Of course this strategy has some potential issues of its own but hey, nothing is perfect.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The man of simple faith who loves learning for his burden is love</title>
