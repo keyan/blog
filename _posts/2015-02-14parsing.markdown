@@ -1,0 +1,18 @@
+lib2to3 parses code into a parse tree, unlike `parser` or `ast` it pays attention to comments and formating
+
+explicitly call only specified fixers
+2to3 -f fixer_name.py example.py
+
+lib2to3.fixer_util 
+
+lib2to3 pygram.py, creates an attribute for each grammer symbol
+
+redbaron --> FST instead of AST, so it preserves formating
+
+https://github.com/Psycojoker/baron
+https://github.com/Psycojoker/redbaron
+
+"from flask.ext.foo import bar" becomes:
+    FromImportNode 
+        values: flask, ext, foo
+        targets: bar
