@@ -23,7 +23,7 @@ All that said, through contributing I have learned immensely more about software
     7. Fix the problem
     8. Realize you broke other things while fixing the problem
     9. Fix the things you broke
-    10. Repeat
+    10. Repeat 6-9 as needed
     11. Rejoice in your contributions to the community at large
 
 Except maybe #11 just getting paid, although ideally that would be #12 and you could get paid and positively impact the community too. Anyhow, my next post is going be more technical and actually dissect an issue I've been working for [Flask][1]. Stay tuned!
