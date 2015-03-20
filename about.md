@@ -20,5 +20,5 @@ meaning of life or just say `Hello`.
 
 [molmicro]: http://onlinelibrary.wiley.com/doi/10.1111/mmi.12856/abstract
 [hs]: https://www.hackerschool.com
-[github]: https://github.com/keyanp
+[github]: https://github.com/keyan
 [twitter]: https://twitter.com/keyan__p

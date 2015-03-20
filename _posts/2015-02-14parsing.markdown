@@ -1,18 +1,36 @@
+---
+layout: post
+title:  "Parse All the Things!"
+date:   2015-02-20 10:13:27
+description: open source
+categories:
+- open source
+---
+
+Previously I wrote a little about working on [Flask][1] and how open source contributing has been rewarding for me, but I wanted to dive deeper and talk about the issue I was working on a couple weeks ago.
+
+For those of you who have used Flask before or maybe even developed your own Flask exten
+
 lib2to3 parses code into a parse tree, unlike `parser` or `ast` it pays attention to comments and formating
 
-explicitly call only specified fixers
-2to3 -f fixer_name.py example.py
+[RedBaron][2] --> FST instead of AST, so it preserves formating
+Jamie Zawinski:
 
-lib2to3.fixer_util 
-
-lib2to3 pygram.py, creates an attribute for each grammer symbol
-
-redbaron --> FST instead of AST, so it preserves formating
-
-https://github.com/Psycojoker/baron
-https://github.com/Psycojoker/redbaron
-
+"Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems."
 "from flask.ext.foo import bar" becomes:
-    FromImportNode 
-        values: flask, ext, foo
-        targets: bar
+
+    FromImportNode()
+        values ->
+            NameNode()
+                value='flask'
+            NameNode()
+                value='ext'
+            NameNode()
+                value='foo'
+        targets ->
+            NameAsNameNode()
+                value='bar'
+                target=''
+
+[1]: https://github.com/mitsuhiko/flask
+[2]: https://github.com/Psycojoker/redbaron
