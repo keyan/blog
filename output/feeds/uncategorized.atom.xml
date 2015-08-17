@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>keyan pishdadian</title><link href="/" rel="alternate"></link><link href="/feeds/uncategorized.atom.xml" rel="self"></link><id>/</id><updated>2015-08-16T18:23:19-04:00</updated><entry><title>"Working"</title><link href="/working.html" rel="alternate"></link><updated>2015-08-16T18:23:19-04:00</updated><author><name>keyan</name></author><id>tag:,2015-08-16:working.html</id><summary type="html">&lt;p&gt;So it's safe to safe I've failed at keeping a relatively up to date informative blog. It's been over six months since I've posted anything, but thankfully this is mostly a symptom of how productive those months have been.&lt;/p&gt;
+&lt;p&gt;So what happened since I posted last? Well I worked a little more on my Flask tool, &lt;a href="https://github.com/pocoo/flask-ext-migrate"&gt;flask-ext-migrate&lt;/a&gt;, which was eventually separated into it's own repository. I also worked on a few personal projects including a barebones Dropbox clone I affectionately coined &lt;a href="https://github.com/keyan/flopbox"&gt;flopbox&lt;/a&gt;, a collaborative drawing game &lt;a href="https://github.com/keyan/scrawl"&gt;scrawl&lt;/a&gt; (which is actually hosted on this domain: scrawl.keyanp.com), and a completely non-functional abandoned chess AI, &lt;a href="https://github.com/keyan/swordfish"&gt;swordfish&lt;/a&gt;, that I worked on with my friend &lt;a href="https://github.com/jpoler"&gt;Jon Poler&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During this time I was also accepted to the MSCS program at &lt;a href="www.cs.dartmouth.edu"&gt;Dartmouth College&lt;/a&gt;, which I had applied to before deciding to go to Recurse Center. After many discussions with peers and mentors I decided to enroll and started looking for a summer internship. Many phone calls and countless questions about sorting algorithms later I landed a great position at &lt;a href="https://venmo.com/"&gt;Venmo&lt;/a&gt; as a backend platform engineer. I ended up enjoying my time there so much that I am ultimately putting off going back to school so I can focus on becoming a better programmer and engineer. I'm just having too much fun programming full-time to give it up quite yet.&lt;/p&gt;</summary></entry><entry><title>"Open Sorcery"</title><link href="/open-sorcery.html" rel="alternate"></link><updated>2015-02-12T11:43:19-05:00</updated><author><name>keyan</name></author><id>tag:,2015-02-12:open-sorcery.html</id><summary type="html">&lt;p&gt;One of my main goals coming to RC was to contribute to an open source project. I have heard over and over again how contributing is important to becoming a better software engineer. Whilst also reading numerous rants by those who are resentful that open source contributions have become a &lt;em&gt;de facto&lt;/em&gt; expectation of professional developers. So of course I was dying to see what all the fuss was about.&lt;/p&gt;
+&lt;p&gt;I'll premise this discussion by saying that I concur with the notion that open source contributing makes for better software developers, but that contributing shouldn't necessarily be a requirement for anyone. Naturally, if you are spending a few months programming for the sake of learning and have plenty of time (Recursers), open source contributing makes plenty of sense! But for those who have to work 9-5 and have other responsibilities, it seems ridiculous to demand that they go home and essentially continue working.&lt;/p&gt;
+&lt;p&gt;All that said, through contributing I have learned immensely more about software development than I could have by working on my own toy projects. Working on a large project that has been in development for weeks/months/years before you even looked at the codebase is &lt;strong&gt;hard&lt;/strong&gt;. For me the most striking fact was how much overhead is required to actually start working on an issue, especially when one is new to the codebase. Much more time is spent reading the existing source, setting up the environment, writing tests, and understanding the problem than is actually spent coding. Even seemingly trivial issues are multifaceted and have many dependencies. Although I haven't worked on a software development team, I'd imagine the experience is very similar:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;1. Get a bug report
+2. Digest the problem
+3. Replicate the issue
+4. Clarify the expected behavior
+5. Write tests
+6. Dive into the source to find the problem
+7. Fix the problem
+8. Realize you broke other things while fixing the problem
+9. Fix the things you broke
+10. Repeat 6-9 as needed
+11. Rejoice in your contributions to the community at large
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Except maybe #11 just getting paid, although ideally that would be #12 and you could get paid and positively impact the community too. Anyhow, my next post is going be more technical and actually dissect an issue I've been working for &lt;a href="https://github.com/mitsuhiko/flask"&gt;Flask&lt;/a&gt;. Stay tuned!&lt;/p&gt;</summary></entry><entry><title>"A Reflection"</title><link href="/a-reflection.html" rel="alternate"></link><updated>2015-02-06T17:43:19-05:00</updated><author><name>keyan</name></author><id>tag:,2015-02-06:a-reflection.html</id><summary type="html">&lt;p&gt;It's crazy to think it has already been five weeks, but soon enough I will hit the half-way point of my official time at RC. I say official  because, you know, never graduate. The last couple weeks were difficult for me but I'm glad I can say I've learned a lot, and not just about programming.&lt;/p&gt;
+&lt;p&gt;Most programmers face a point where they are unsure of what to do next. The seemingly limitless options of topics/frameworks/languages available can make anyone go mad trying to figure out what the "most important" thing to learn is, and I am no exception.&lt;/p&gt;
+&lt;p&gt;I came to RC with a vague idea of things I wanted to learn about, but as I talked to more people I noticed this list of projects expanding to the point of being unmanageable. The environment is interesting in that one is free to spend time on whatever they wish which can be intoxicating, but coming from a restricted ladderlike educational structure the freedom is also unnerving. In an effort to optimize my learning (and future employment prospects) I found myself spending way too much chasing the dragon of the "perfect project". In reality, the time spent worrying about what to do could have been better spent just doing whatever I felt like doing. Being able to stop obsessing over time optimization is really about accepting that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You will never be able to learn everything you want to learn.&lt;/li&gt;
+&lt;li&gt;There will always be someone who is more experienced/smarter/faster/whatever than you.&lt;/li&gt;
+&lt;li&gt;If you aren't interested in something, you will realize very quickly and very little time will be wasted.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Instead of trying to finding the ultimate project that would be technically challenging, impress potential employers, and woo fellow Recursers at weekly presentations, I decided to just do whatever I felt like doing. If it wasn't the right project or I wasn't learning as much as I had planned I would just move to something else. Of course this strategy has some potential issues of its own but hey, nothing is perfect.&lt;/p&gt;</summary></entry><entry><title>"The man of simple faith who loves learning for his burden is love"</title><link href="/the-man-of-simple-faith-who-loves-learning-for-his-burden-is-love.html" rel="alternate"></link><updated>2015-01-23T23:30:12-05:00</updated><author><name>keyan</name></author><id>tag:,2015-01-23:the-man-of-simple-faith-who-loves-learning-for-his-burden-is-love.html</id><summary type="html">&lt;p&gt;That title was generated by my Markov chain text generator that I just finished working on. Even though it's stochastically generated text, I feel like it is speaking to me. That might sound strange, that's because it is.&lt;/p&gt;
+&lt;p&gt;This was a side project I did after a fellow Recurser and friend, &lt;a href="https://github.com/amandapickering"&gt;Amanda&lt;/a&gt;, talked about a &lt;a href="https://twitter.com/milton_bot"&gt;twitter bot&lt;/a&gt; she wrote that used Markov chains to make tweets. I have always been interested in working on an NLP project and decided this would be perfect to do in-between other things this week.&lt;/p&gt;
+&lt;p&gt;For the uninitiated, Markov chains are mathematical systems that transition from one state to another. Each transition depends only on the current state and not on the transitions that bring the system to the present state. We can design Markov chain models of a system to describe the likelihood of any particular transition occurring. For instance, constructing a Markov chain model for a sentence would allow us to know the probability that a certain word would follow any other word in that sentence. For example in the sentence:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The lazy boy poked the lazy dog&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We know that if our current state is &lt;strong&gt;"lazy"&lt;/strong&gt; then the probabilities of the two possible future states are 50% &lt;strong&gt;"boy"&lt;/strong&gt; and 50% &lt;strong&gt;"dog"&lt;/strong&gt;. In this project I used this idea to process a large input text (my favorite is &lt;a href="https://www.gutenberg.org/ebooks/24055"&gt;The Sayings of Confucius&lt;/a&gt;) and use the weighted probabilities of individual state changes to stochastically generate text which (hopefully) looks and sounds similar to the input.&lt;/p&gt;
+&lt;p&gt;I did this by creating a dictionary which kept a count of the instances that certain individual words followed each two word phrase in the input. I used one large dictionary where each key was a two word phrase, and each value was a &lt;a href="https://docs.python.org/2/library/collections.html#collections.defaultdict"&gt;defaultdict&lt;/a&gt;. The code for this is below:&lt;/p&gt;
+&lt;p&gt;..code-block:: python
+    if current_token in markov_dictionary:
+        self.update_dictionary(markov_dictionary,
+                            tokens_list,
+                            current_token,
+                            next_index)
+    else:
+        markov_dictionary[current_token] = defaultdict(int)
+        self.update_dictionary(markov_dictionary,
+                            tokens_list,
+                            current_token,
+                            next_index)&lt;/p&gt;
+&lt;p&gt;After this I just used the word counts to calculate a probability (0.0 - 1.0) that a word would follow the current state and used this to make a weighted randomized choice:&lt;/p&gt;
+&lt;p&gt;..code-block:: python
+    denominator = sum(value for key, value in current_word)
+    weights = [float(value) / denominator for key, value in current_word]
+    words = [key for key, value in current_word]
+    word = list(numpy.random.choice(words,
+                                    size=1,
+                                    replace=False,
+                                    p=weights))&lt;/p&gt;
+&lt;p&gt;The result of all this is text that is oftentimes gibberish, but sometimes strangely poetic:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In awe he is stable a man with enquiries to another state&lt;/p&gt;
+&lt;p&gt;Come from afar do we not rejoice to live unknown&lt;/p&gt;
+&lt;p&gt;They are unprincipled stern men of arts and learning delights&lt;/p&gt;
+&lt;p&gt;His face changed when he was asked what is meant by kindness without waste&lt;/p&gt;
+&lt;p&gt;The master said when a man of endless craving who never tires of his laughter he only takes when he has lost the way&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The rest of the code is available &lt;a href="https://github.com/keyanp/MarkovGen"&gt;here&lt;/a&gt;. I'm hoping to work more on my BitTorrent client this week, as I spent most of this past week fixing bugs in &lt;a href="http://www.bpython-interpreter.org/"&gt;&lt;em&gt;bpython&lt;/em&gt;&lt;/a&gt;. I'll probably talk more about that some other time.&lt;/p&gt;</summary></entry><entry><title>"Hello World!"</title><link href="/hello-world.html" rel="alternate"></link><updated>2015-01-19T13:48:45-05:00</updated><author><name>keyan</name></author><id>tag:,2015-01-19:hello-world.html</id><summary type="html">&lt;p&gt;I finally started a blog! I've heard that keeping a blog is an easy way to practice writing and can be educational, so why have I been putting this off?&lt;/p&gt;
+&lt;p&gt;It could be to avoid adding fuel to the argument that the people in my generation (millennials) are self-absorbed (which is probably accurate to a certain extent), but equally as likely is the fact that organizing one's thoughts in a coherent and interesting way is simply hard! Nevertheless here I am.&lt;/p&gt;
+&lt;p&gt;So what's the story? Well I just recently quit my job doing &lt;a href="http://onlinelibrary.wiley.com/doi/10.1111/mmi.12856/abstract"&gt;bacterial genetics research&lt;/a&gt; to come to &lt;a href="https://www.recurse.com"&gt;Recurse Center&lt;/a&gt; in New York City. The past couple weeks have already blown by so I decided to start writing this blog as a way of keeping track of what I am working on or learning about. The fear that someone may actually read this is sufficient motivation to properly flesh out ideas and make sure I know what I am talking about before writing it here. Hopefully as I start finishing projects I will write about them in detail. So far I have been working mostly in &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt; and focusing on learning about low level networking, although I have been getting distracted by a few other things too.&lt;/p&gt;
+&lt;p&gt;For now I am working on:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;a &lt;a href="http://en.wikipedia.org/wiki/BitTorrent"&gt;BitTorrent&lt;/a&gt; client&lt;/li&gt;
+&lt;li&gt;generating random text using &lt;a href="http://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators"&gt;Markov chains&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a simple &lt;a href="http://en.wikipedia.org/wiki/Collaborative_filtering"&gt;recommendation engine&lt;/a&gt; for Etsy users&lt;/li&gt;
+&lt;li&gt;contributing to &lt;a href="http://www.bpython-interpreter.org/"&gt;&lt;em&gt;bpython&lt;/em&gt;&lt;/a&gt;, an open-source fancy Python interpreter&lt;/li&gt;
+&lt;li&gt;writing a &lt;a href="http://en.wikipedia.org/wiki/Scheme_%28programming_language%29"&gt;Scheme&lt;/a&gt; interpreter with my friend &lt;a href="http://davo.io/"&gt;David&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;but who knows how much of that will get done...&lt;/p&gt;</summary></entry></feed>
