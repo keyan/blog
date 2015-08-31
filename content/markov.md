@@ -13,7 +13,7 @@ We know that if our current state is **"lazy"** then the probabilities of the tw
 
 I did this by creating a dictionary which kept a count of the instances that certain individual words followed each two word phrase in the input. I used one large dictionary where each key was a two word phrase, and each value was a [defaultdict][defaultdict]. The code for this is below:
 
-..code-block:: python
+    :::python
     if current_token in markov_dictionary:
         self.update_dictionary(markov_dictionary,
                             tokens_list,
@@ -28,7 +28,8 @@ I did this by creating a dictionary which kept a count of the instances that cer
 
 After this I just used the word counts to calculate a probability (0.0 - 1.0) that a word would follow the current state and used this to make a weighted randomized choice:
 
-..code-block:: python
+    :::python
+    if current_token in markov_dictionary:
     denominator = sum(value for key, value in current_word)
     weights = [float(value) / denominator for key, value in current_word]
     words = [key for key, value in current_word]

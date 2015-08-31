@@ -38,27 +38,32 @@
 </blockquote>
 <p>We know that if our current state is <strong>"lazy"</strong> then the probabilities of the two possible future states are 50% <strong>"boy"</strong> and 50% <strong>"dog"</strong>. In this project I used this idea to process a large input text (my favorite is <a href="https://www.gutenberg.org/ebooks/24055">The Sayings of Confucius</a>) and use the weighted probabilities of individual state changes to stochastically generate text which (hopefully) looks and sounds similar to the input.</p>
 <p>I did this by creating a dictionary which kept a count of the instances that certain individual words followed each two word phrase in the input. I used one large dictionary where each key was a two word phrase, and each value was a <a href="https://docs.python.org/2/library/collections.html#collections.defaultdict">defaultdict</a>. The code for this is below:</p>
-<p>..code-block:: python
-    if current_token in markov_dictionary:
-        self.update_dictionary(markov_dictionary,
-                            tokens_list,
-                            current_token,
-                            next_index)
-    else:
-        markov_dictionary[current_token] = defaultdict(int)
-        self.update_dictionary(markov_dictionary,
-                            tokens_list,
-                            current_token,
-                            next_index)</p>
+<div class="highlight"><pre><span class="k">if</span> <span class="n">current_token</span> <span class="ow">in</span> <span class="n">markov_dictionary</span><span class="p">:</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">update_dictionary</span><span class="p">(</span><span class="n">markov_dictionary</span><span class="p">,</span>
+                        <span class="n">tokens_list</span><span class="p">,</span>
+                        <span class="n">current_token</span><span class="p">,</span>
+                        <span class="n">next_index</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">markov_dictionary</span><span class="p">[</span><span class="n">current_token</span><span class="p">]</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">update_dictionary</span><span class="p">(</span><span class="n">markov_dictionary</span><span class="p">,</span>
+                        <span class="n">tokens_list</span><span class="p">,</span>
+                        <span class="n">current_token</span><span class="p">,</span>
+                        <span class="n">next_index</span><span class="p">)</span>
+</pre></div>
+
+
 <p>After this I just used the word counts to calculate a probability (0.0 - 1.0) that a word would follow the current state and used this to make a weighted randomized choice:</p>
-<p>..code-block:: python
-    denominator = sum(value for key, value in current_word)
-    weights = [float(value) / denominator for key, value in current_word]
-    words = [key for key, value in current_word]
-    word = list(numpy.random.choice(words,
-                                    size=1,
-                                    replace=False,
-                                    p=weights))</p>
+<div class="highlight"><pre><span class="k">if</span> <span class="n">current_token</span> <span class="ow">in</span> <span class="n">markov_dictionary</span><span class="p">:</span>
+<span class="n">denominator</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">value</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">current_word</span><span class="p">)</span>
+<span class="n">weights</span> <span class="o">=</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">/</span> <span class="n">denominator</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">current_word</span><span class="p">]</span>
+<span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">key</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">current_word</span><span class="p">]</span>
+<span class="n">word</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">numpy</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">words</span><span class="p">,</span>
+                                <span class="n">size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                                <span class="n">replace</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+                                <span class="n">p</span><span class="o">=</span><span class="n">weights</span><span class="p">))</span>
+</pre></div>
+
+
 <p>The result of all this is text that is oftentimes gibberish, but sometimes strangely poetic:</p>
 <blockquote>
 <p>In awe he is stable a man with enquiries to another state</p>
