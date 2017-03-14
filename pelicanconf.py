@@ -10,6 +10,9 @@ TIMEZONE = 'America/Detroit'
 DEFAULT_LANG = u'en'
 THEME = "themes/flasky"
 
+# Site analytics
+GOOGLE_ANALYTICS_ACCOUNT = "UA-93664476-1"
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
