@@ -38,7 +38,7 @@
 </blockquote>
 <p>We know that if our current state is <strong>"lazy"</strong> then the probabilities of the two possible future states are 50% <strong>"boy"</strong> and 50% <strong>"dog"</strong>. In this project I used this idea to process a large input text (my favorite is <a href="https://www.gutenberg.org/ebooks/24055">The Sayings of Confucius</a>) and use the weighted probabilities of individual state changes to stochastically generate text which (hopefully) looks and sounds similar to the input.</p>
 <p>I did this by creating a dictionary which kept a count of the instances that certain individual words followed each two word phrase in the input. I used one large dictionary where each key was a two word phrase, and each value was a <a href="https://docs.python.org/2/library/collections.html#collections.defaultdict">defaultdict</a>. The code for this is below:</p>
-<div class="highlight"><pre><span class="k">if</span> <span class="n">current_token</span> <span class="ow">in</span> <span class="n">markov_dictionary</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">current_token</span> <span class="ow">in</span> <span class="n">markov_dictionary</span><span class="p">:</span>
     <span class="bp">self</span><span class="o">.</span><span class="n">update_dictionary</span><span class="p">(</span><span class="n">markov_dictionary</span><span class="p">,</span>
                         <span class="n">tokens_list</span><span class="p">,</span>
                         <span class="n">current_token</span><span class="p">,</span>
@@ -53,7 +53,7 @@
 
 
 <p>After this I just used the word counts to calculate a probability (0.0 - 1.0) that a word would follow the current state and used this to make a weighted randomized choice:</p>
-<div class="highlight"><pre><span class="k">if</span> <span class="n">current_token</span> <span class="ow">in</span> <span class="n">markov_dictionary</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">current_token</span> <span class="ow">in</span> <span class="n">markov_dictionary</span><span class="p">:</span>
 <span class="n">denominator</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">value</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">current_word</span><span class="p">)</span>
 <span class="n">weights</span> <span class="o">=</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">/</span> <span class="n">denominator</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">current_word</span><span class="p">]</span>
 <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">key</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">current_word</span><span class="p">]</span>
@@ -86,7 +86,7 @@
           document.write('<a href=\"mailto:' + u + '@' + s + '\" target=\"_blank\">');
         </script>
             <li><i class="icon-envelope icon-large"></i> </li>
-        </a><a href="http://twitter.com/keyan__P" target="_blank"> <li> <i class="icon-twitter-sign icon-large"> </li></i> </a><a href="https://www.linkedin.com/profile/view?id=233825174" target="_blank"><li><i class="icon-linkedin-sign icon-large" ></i></li></a><a href="http://github.com/keyan" target="_blank"> <li> <i class="icon-github-sign icon-large"></i> </li> </a>
+        </a><a href="http://twitter.com/keyan__P" target="_blank"> <li> <i class="icon-twitter-sign icon-large"> </li></i> </a><a href="https://www.linkedin.com/in/keyanp" target="_blank"><li><i class="icon-linkedin-sign icon-large" ></i></li></a><a href="http://github.com/keyan" target="_blank"> <li> <i class="icon-github-sign icon-large"></i> </li> </a>
 
       </ul>
     </div>
