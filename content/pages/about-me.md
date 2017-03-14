@@ -1,6 +1,6 @@
 title: about me
 
-Hi, I am Keyan, a [Recurse Center][rc] alum and software engineer currently living in Brooklyn NY and working on the platform team at [Venmo][v]. Before playing with computers I played with [bacteria][molmicro]. Thankfully it's much easier to tell computers what to do.
+Hi, I am Keyan, a software engineer currently living in Brooklyn NY and working at [Teachers Pay Teachers][tpt]. Previously I worked on the Platform team at [Venmo][venmo] and never-graduated from the [Recurse Center][rc]. Before playing with computers I played with [bacteria][molmicro]. Thankfully it's much easier to tell computers what to do.
 
 Aside from programming I like rock climbing, watching movies, biking, and thinking about warmer weather.
 
@@ -12,4 +12,5 @@ Find me on [Github][github] / [Twitter][Twitter] or get in touch with me at <kpi
 [rc]: https://www.recurse.com
 [github]: https://github.com/keyan
 [twitter]: https://twitter.com/keyan__p
-[v]: https://www.venmo.com
+[venmo]: https://www.venmo.com
+[tpt]: https://www.teacherspayteachers.com

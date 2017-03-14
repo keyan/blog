@@ -1,5 +1,5 @@
-title:  "A Reflection"
-date:   2015-02-06 17:43:19
+title: A Reflection
+date: 2015-02-06 17:43:19
 
 It's crazy to think it has already been five weeks, but soon enough I will hit the half-way point of my official time at RC. I say official  because, you know, never graduate. The last couple weeks were difficult for me but I'm glad I can say I've learned a lot, and not just about programming.
 

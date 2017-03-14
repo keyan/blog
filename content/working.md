@@ -1,5 +1,5 @@
-title:  "Working"
-date:   2015-08-16 18:23:19
+title: Working
+date: 2015-08-16 18:23:19
 
 So it's safe to safe I've failed at keeping a relatively up to date informative blog. It's been over six months since I've posted anything, but thankfully this is mostly a symptom of how productive those months have been.
 

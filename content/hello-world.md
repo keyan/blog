@@ -1,5 +1,5 @@
-title:  "Hello World!"
-date:   2015-01-19 13:48:45
+title: Hello World!
+date: 2015-01-19 13:48:45
 
 I finally started a blog! I've heard that keeping a blog is an easy way to practice writing and can be educational, so why have I been putting this off?
 

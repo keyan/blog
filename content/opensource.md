@@ -1,5 +1,5 @@
-title:  "Open Sorcery"
-date:   2015-02-12 11:43:19
+title: Open Sorcery
+date: 2015-02-12 11:43:19
 
 One of my main goals coming to RC was to contribute to an open source project. I have heard over and over again how contributing is important to becoming a better software engineer. Whilst also reading numerous rants by those who are resentful that open source contributions have become a *de facto* expectation of professional developers. So of course I was dying to see what all the fuss was about.
 
