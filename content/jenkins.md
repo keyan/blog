@@ -30,12 +30,12 @@ I ran into this [Reddit rant][reddit] a few days ago where the poster is going o
 
             :::bash
             build (
-                job: 'My-Build',
-                parameters: [
-                  [$class: 'StringParameterValue',
-                   name: 'MY_PARAM',
-                   value: "MY_PARAM_VALUE"]
-                ]
+              job: 'My-Build',
+              parameters: [
+                [$class: 'StringParameterValue',
+                 name: 'MY_PARAM',
+                 value: "MY_PARAM_VALUE"]
+              ]
             )
 
 2. Code examples are few and far between
