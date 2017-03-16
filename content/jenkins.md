@@ -14,6 +14,8 @@ We were already heavily invested in Jenkins, but I didn't want to manage deploym
     - Easy monitoring and statistics collection on average stage timing
     - Faster debugging of build failures by being able to see exactly where the pipeline failed and finding the relevant console log lines for a single stage
 
+    <img src="images/pipeline.png" alt="pipeline" style="width: 650px;"/>
+
 There was just one small detail, in order to get all these benefits the job configuration needed to be defined in a "Jenkinsfile" containing a script written in a custom Jenkins DSL built on top of [Groovy][groovy]. This DSL has a lot of quirks and can difficult to pick up, but after much frustration and trial-and-error I managed to get our pipeline up and running.
 
 Now I want to take you through some issues I faced when writing a Jenkinsfile, discuss some weird bits that I found surprising, show a bunch of code samples for discussing and copy/pasting, and also provide some links to helpful resources. Hopefully this will make it easier for you to get your own Pipeline running and clear up some confusion around Jenkinsfile syntax and usage.
