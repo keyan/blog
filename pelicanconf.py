@@ -41,7 +41,6 @@ STATIC_PATHS = ["images"]
 
 # Optional social media links
 # =============================
-TWITTER_USERNAME = 'keyan__P'
 LINKEDIN_URL = 'https://www.linkedin.com/in/keyanp'
 GITHUB_URL = 'http://github.com/keyan'
 MAIL_USERNAME = 'kpishdadian'
