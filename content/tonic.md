@@ -1,4 +1,5 @@
 title: A Refreshing Tonic, Realtime Updates with Phoenix Channels
+slug: tonic
 date: 2017-05-23 20:06:23
 Tags: elixir, phoenix, html, web, frontend, functional, websockets, channels, realtime
 Status: published

@@ -1,4 +1,5 @@
 title: What to expect when you're expecting...to write a Jenkinsfile
+slug: jenkins
 date: 2017-03-13 20:58:45
 Tags: tutorial, jenkins, jenkinsfile, pipelines, deployment, kubernetes, docker, CD, continuous deployment, deploy, groovy
 

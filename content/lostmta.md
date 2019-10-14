@@ -1,4 +1,5 @@
 title: What gets lost on NYC MTA?
+slug: lostmta
 date: 2019-10-6 14:13:45
 Tags: mta, transit, dataviz, js, d3
 

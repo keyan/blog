@@ -1,4 +1,5 @@
 title: Visualizing Seattle Police Department use-of-force data
+slug: spd-use-of-force
 date: 2019-10-13 18:38:00
 Tags: spd, seattle, civic data, d3, dataviz, leaflet
 

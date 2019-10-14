@@ -1,3 +1,6 @@
 [submodule "themes/flasky"]
 	path = themes/flasky
 	url = git@github.com:keyan/flasky.git
+[submodule "spd_force"]
+	path = spd_force
+	url = git@github.com:keyan/spd_force.git
