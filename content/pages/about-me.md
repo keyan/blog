@@ -1,6 +1,6 @@
 title: about me
 
-Hi, I am Keyan, a software engineer currently living in Seattle WA and working on backend product development at [Lyft][lyft]. Previously I worked on infrastructure at [Teachers Pay Teachers][tpt], scaled the platform at [Venmo][venmo], and never-graduated from the [Recurse Center][rc]. Before playing with computers I played with [bacteria][molmicro]. Thankfully it's much easier to tell computers what to do.
+Hi, I am Keyan, a software engineer currently living in Seattle WA and working on the [public transit][transit] team at [Lyft][lyft]. Previously I worked on infrastructure at [Teachers Pay Teachers][tpt], scaled the platform at [Venmo][venmo], and never-graduated from the [Recurse Center][rc]. Before playing with computers I played with [bacteria][molmicro]. Thankfully it's much easier to tell computers what to do.
 
 Aside from programming I like rock climbing, watching movies, biking, swimming, and cooking.
 
@@ -14,3 +14,4 @@ Find me on [Github][github] or get in touch with me at <kpishdadian@gmail.com> w
 [github]: https://github.com/keyan
 [venmo]: https://www.venmo.com
 [tpt]: https://www.teacherspayteachers.com
+[transit]: https://www.citylab.com/transportation/2019/09/lyft-app-real-time-public-transit-train-bus-subway-travel/598702/
