@@ -7,7 +7,7 @@ Using the [Seattle Open Data Portal][data_portal] I collected and analyzed [Seat
 1. Are there geographic areas that have a disproportionate number of use-of-force incidents?
 1. Are there some police officers that are involved in more incidents than others?
 
-Seattle being quite progressive has its [own dashboard][dashboard] for visualizing this data, but the maps provided are more difficult to visually inspect and there is no analysis of per-officer aggregated data.
+Seattle, being quite progressive, has its [own dashboard][dashboard] for visualizing this data, but the maps provided are more difficult to visually inspect and there is no analysis of per-officer aggregated data.
 
 ## Methods
 
@@ -15,19 +15,19 @@ All the code and post-processed data are available in the GitHub repo, [spd_forc
 
 ## Results
 
-The spatial visualization is interesting to inspect for those who are familiar with Seattle neighborhoods, and surprisingly there are more incidents in the busier downtown area and historically diverse and poorer [South End][south_end]. Ultimately without additional data layers it isn't easy to draw many conclusions.
+The spatial visualization is interesting to inspect for those who are familiar with Seattle neighborhoods. Unsurprisingly there are more incidents in the busier downtown area and historically diverse and poorer [South End][south_end], but ultimately without additional data layers it isn't easy to draw many conclusions.
 
 <iframe src="https://keyanp.com/spd_force/force.html" width="100%" height="600" frameborder=0></iframe>
 
-When I grouped use-of-force incidents (after removing duplicates) by officer, I noticed that over 10,290 total incidents there were 1,144 officers involved, but a majority of officers (620, or ~54%) were involved in less than seven incidents. In fact the top 200 (~17.4%) most frequently involved officers were responsible for just over half (~50.14%) of all incidents.
+When I grouped use-of-force incidents (after removing duplicates) by officer, I noticed that relatively few officers accounted for the majority of cases. Over a total of 10,290 incidents there were 1,144 officers involved, but the top 200 (~17.4%) most frequently involved officers were responsible for just over half (~50.14%) of all incidents.
 
-When visualizing the number of incidents per officer we see that most officers are involved in just one incident, while a few officers are involved in 40+ incidents. One officer was even involved in 92 incidents! Unfortunately, the "officer id" data used for this grouping is simply a unique identifier for each officer and not a badge number or other publicly available identifier.
+When visualizing the number of incidents per officer we see that most officers are involved in just one incident, while a few officers are involved in 40+ incidents. One officer was even involved in 92 incidents! I did consider that officer tenure may be skewing this data, but I couldn't control for that because "years of service" information was not included.
 
 <iframe src="https://keyanp.com/spd_force/histogram.html" width="100%" height="460" frameborder=0></iframe>
 
 ## Conclusion
 
-There is a continued need to provide public access to this and other SPD statistics in order to ensure visibility into the police force and equity in treatment of citizens. While SPD has been progressive in its data policies, there is a need for increased openness regarding officer specific data. The public deserves to understand why certain officers show such disproportionately high use-of-force metrics and to be able to hold authorities accountable for any necessary disciplinary action.
+There is a continued need to provide public access to this and other SPD statistics in order to ensure visibility into the police force and equity in treatment of citizens. While SPD has been progressive in its data policies, there is a need for increased openness regarding officer specific data. Unfortunately, the "officer id" information in this dataset is simply an internal identifier and not a badge number or other publicly available identifier. The disproportionate involvement of some officers must be investigated further.
 
 [data_portal]: https://data.seattle.gov/
 [dashboard]: https://www.seattle.gov/police/information-and-data/use-of-force-data/use-of-force-dashboard
