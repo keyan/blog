@@ -28,7 +28,11 @@ SECTIONS = [('blog', 'index.html'),
 DEFAULT_CATEGORY = 'Uncategorized'
 DATE_FORMAT = {'en': '%m %d %Y'}
 DEFAULT_DATE_FORMAT = '%m %d %Y'
-DEFAULT_PAGINATION = False
+
+# Pagination settings
+DEFAULT_PAGINATION = 8
+DEFAULT_ORPHANS = 5
+
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
 
