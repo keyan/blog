@@ -8,7 +8,7 @@ Using the [Seattle Open Data Portal][data_portal] I collected and analyzed [Seat
 1. Are there geographic areas that have a disproportionate number of use-of-force incidents?
 1. Are there some police officers that are involved in more incidents than others?
 
-Seattle, being quite progressive, has its [own dashboard][dashboard] for visualizing this data, but the maps provided are more difficult to visually inspect and there is no analysis of per-officer aggregated data.
+Seattle, being progressive, has its [own dashboard][dashboard] for visualizing this data, but the maps provided are more difficult to visually inspect and there is no analysis of per-officer aggregated data.
 
 ## Methods
 
