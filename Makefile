@@ -21,44 +21,33 @@ ifeq ($(RELATIVE), 1)
 endif
 
 help:
-	@echo 'Makefile for a pelican Web site                                           '
-	@echo '                                                                          '
-	@echo 'Usage:                                                                    '
-	@echo '   make html                           (re)generate the web site          '
-	@echo '   make clean                          remove the generated files         '
-	@echo '   make regenerate                     regenerate files upon modification '
-	@echo '   make publish                        generate using production settings '
-	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
-	@echo '   make s3_upload                      upload the web site via S3         '
-	@echo '                                                                          '
-	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
-	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
-	@echo '                                                                          '
-
-html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	@echo 'Makefile for a pelican Web site                                                                      '
+	@echo '                                                                                                     '
+	@echo 'Usage:                                                                                               '
+	@echo '   make help               output this message                                                       '
+	@echo '   make clean              remove the generated files                                                '
+	@echo '   make work               serve site at http://localhost:8000 with automatic reloading after changes'
+	@echo '   make publish            generate using production settings                                        '
+	@echo '   make upload             upload the web site via S3     					    '
+	@echo '                                                                                                     '
+	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html                              '
+	@echo 'Set the RELATIVE variable to 1 to enable relative urls                                               '
+	@echo '                                                                                                     '
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 	[ ! -d __pycache__ ] || rm -rf __pycache__
 	rm *.swo *.swp
 
-regenerate:
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-
-serve:
-ifdef PORT
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
-else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server
-endif
+work:
+	$(PELICAN) --autoreload --listen
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-s3_upload: publish
+upload: publish
 	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --no-delete-removed --guess-mime-type
 	s3cmd sync spd_force/ s3://$(S3_BUCKET)/spd_force/ --acl-public --no-delete-removed --guess-mime-type
 
 
-.PHONY: html help clean regenerate serve serve-global devserver publish s3_upload
+.PHONY: help clean work publish upload

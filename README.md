@@ -18,11 +18,11 @@ $ s3cmd --configure
 ## Writing/publishing content
 
 ```
+# Startup development server
+$ make work
+
 # Write content in `./content`
 
-# Generate output files and checkout changes
-$ pelican content/ && make serve
-
-# Upload to S3
-$ make s3_upload
+# Generate output files and upload to S3
+$ make upload
 ```

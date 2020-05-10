@@ -47,5 +47,6 @@ STATIC_PATHS = ["images"]
 # =============================
 LINKEDIN_URL = 'https://www.linkedin.com/in/keyanp'
 GITHUB_URL = 'http://github.com/keyan'
+RESUME_URL = 'https://github.com/keyan/resume/blob/master/resume.pdf'
 MAIL_USERNAME = 'kpishdadian'
 MAIL_HOST = 'gmail.com'
