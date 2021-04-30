@@ -1,17 +1,14 @@
 title: about me
 
-Hi, I am Keyan, a software engineer currently living in Seattle WA and working on the [public transit][transit] team at [Lyft][lyft]. Previously I worked on infrastructure at [Teachers Pay Teachers][tpt], scaled the platform at [Venmo][venmo], and never-graduated from the [Recurse Center][rc]. Before playing with computers I played with [bacteria][molmicro]. Thankfully it's much easier to tell computers what to do.
+Hi, I am Keyan, a software engineer currently living in Seattle WA. At the moment I'm on something of a sabbatical so that I can learn more about robotics and AI, but previously I've worked at a handful of software companies in Seattle and NYC. Years ago I spent a few wonderful months at the [Recurse Center][rc] but ultimately I never graduated. Before playing with computers I played with [bacteria][molmicro]. Thankfully it's much easier to tell computers what to do.
 
-Aside from programming I like rock climbing, watching movies, biking, swimming, and cooking.
+I like thinking about economics, transportation, healthcare, and the future of work. For fun I like to [climb rocks][rocks], lift heavy things, watch movies, bike, swim, and cook.
 
 ### contact me
 
 Find me on [Github][github] or get in touch with me at <kpishdadian@gmail.com> whether you want to discuss the meaning of life or just say `Hello`.
 
-[lyft]: http://lyft.com/
 [molmicro]: http://onlinelibrary.wiley.com/doi/10.1111/mmi.12856/abstract
 [rc]: https://www.recurse.com
 [github]: https://github.com/keyan
-[venmo]: https://www.venmo.com
-[tpt]: https://www.teacherspayteachers.com
-[transit]: https://www.citylab.com/transportation/2019/09/lyft-app-real-time-public-transit-train-bus-subway-travel/598702/
+[rocks]: https://photos.app.goo.gl/ZUyZxC6YfXcDdBEb6

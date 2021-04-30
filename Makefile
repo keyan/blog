@@ -40,7 +40,7 @@ clean:
 	rm *.swo *.swp
 
 work:
-	$(PELICAN) --autoreload --listen
+	$(PELICAN) content/ --listen
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
